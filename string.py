@@ -20,5 +20,6 @@ for a,b in count_t.items():
 else:
     print(True)
 
-print(sorted(s) == sorted(t))
-print(sorted(s))
+print(sorted(s) == sorted(t)) #True
+print(sorted(s)) #['a', 'a', 'a', 'g', 'm', 'n', 'r']
+
